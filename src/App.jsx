@@ -146,7 +146,7 @@ export default function App() {
           </div>
           <div
             className="w-60 h-60 sm:w-72 sm:h-72 md:w-80 md:h-80 lg:w-96 lg:h-96 border-4 border-[#FF6700] rounded-2xl bg-cover bg-center"
-            style={{ backgroundImage: "url('./image.png')" }}
+            style={{ backgroundImage: "url('/image.png')" }}
           ></div>
         </section>
       </div>
