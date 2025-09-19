@@ -21,7 +21,7 @@ export default function Contact() {
     setLoading(true);
     setStatus(null);
     try {
-      const res = await fetch('https://mailsender-wvl0.onrender.com/', {
+      const res = await fetch('https://mailsender-wvl0.onrender.com/send', {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
